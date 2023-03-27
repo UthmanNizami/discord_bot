@@ -12,6 +12,18 @@ guild = os.getenv('DISCORD_GUILD')
 
 bot = commands.Bot(command_prefix='!')
 
+@bot.command(name='shut up low rank', help='tells a low rank to shut up')
+async def curseword(ctx:
+    msg = [
+        (
+            'https://cdn.discordapp.com/attachments/697453732308451338/847165212163440660/stfu_low_rank.mp4'
+        )
+    ]
+    responsee = random.choice(msg)
+    await ctx.send(responsee)
+                    
+bot = commands.Bot(command_prefix='!')
+
 @bot.command(name='copypasta', help='responds with a random copypasta')
 async def curse_word(ctx):
     msgs = [
